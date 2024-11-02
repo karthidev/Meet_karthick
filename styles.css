@@ -1,0 +1,237 @@
+
+
+
+body {
+    background-color: white;
+    position: relative;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.about-section {
+
+    background-size: cover; /* Cover the entire section */
+    background-position:top; /* Center the image */
+    color:black; /* Change text color for better visibility */
+    padding: 50px 20px; /* Increased vertical padding */
+    height: 600px; /* Set a minimum height */
+    border-radius: 8px; /* Optional: rounded corners */
+    font-size: 1.2rem; /* Adjust font size */
+    line-height: 1.5; /* Improve line spacing */
+}
+
+h2 {
+    margin-bottom: 20px;
+    color:black; /* Darker gray for heading */
+    font-weight: bold; /* Make the heading bold */
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+a.nav-link {
+    font-family: sans-serif;
+    font-size: larger;
+    color: black;
+    text-transform: uppercase; /* Transform text to uppercase */
+    font-weight: bold; /* Optional: make text bold */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+
+
+
+.list-inline-item {
+    margin: 0 15px; /* Space between social media links */
+}
+
+
+.coming-soon {
+    font-size: 24px;
+    color: #555;
+    text-align: center;
+    padding: 50px;
+    font-family: Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+.background-animation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(270deg, rgba(255, 165, 0, 0.5), rgba(255, 20, 147, 0.5));
+    animation: gradientAnimation 10s ease infinite;
+    z-index: -1; /* Ensures the background is behind other content */
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+b.typewriter {  
+    overflow: hidden;
+    border-right: 3px solid;
+    animation: typing 4s steps(0, end), blink-caret 0.75s step-end infinite; /* Typewriter effect and blinking cursor */
+}
+
+
+
+
+
+section {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+
+footer {
+   
+    animation: fadeIn 1s ease; /* Fade in animation */
+    padding: 20px 0; /* Add padding */
+}
+
+
+
+footer ul li a {
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+footer ul li a:hover {
+    color:black; /* Change color on hover */
+}
+
+div#navbarNav {
+    justify-content: center;
+}
+
+
+
+#contact {
+    max-width: 75%;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contact h2 {
+    color: #333;
+}
+
+
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+.show {
+        opacity: 1; /* Fully visible when class is added */
+        transition: opacity 0.5s; /* Smooth transition */
+}
+
+b{
+    display: block; /* Ensures each <b> tag is a block element */
+}
+.fade-in {
+    opacity:1;
+    animation: fadeIn 1s forwards; /* Animation for each <b> */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* Start hidden */
+        transform: translateY(10px); /* Slight upward movement */
+    }
+    to {
+        opacity: 1; /* Fully visible */
+        transform: translateY(0); /* Return to original position */
+    }
+}
+
+
+.twitter-link {
+    color: #1DA1F2; /* Twitter blue */
+    text-decoration: none;
+}
+
+.twitter-link:hover {
+    color: #0d8bda;
+}
+
+.linkedin-link {
+    color: #0A66C2; /* LinkedIn blue */
+    text-decoration: none;
+}
+
+.linkedin-link:hover {
+    color: #004182;
+}
+
+.github-link {
+    color: #333; /* GitHub dark gray */
+    text-decoration: none;
+}
+
+.github-link:hover {
+    color: #24292e;
+}
+
+.youtube-link {
+    color: #FF0000; /* YouTube red */
+    text-decoration: none;
+}
+
+.youtube-link:hover {
+    color: #CC0000; /* Darker red on hover */
+}
+
+
+
+.animated-heading {
+    opacity: 0; /* Start invisible */
+    transform: translateY(20px); /* Start slightly below */
+    animation: fadeInUp 1s ease-out forwards; /* Animation properties */
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px); /* Starting position */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); /* Final position */
+    }
+}
+
+.blogger-link {
+    color: #f57d00; /* Blogger orange */
+    text-decoration: none;
+}
+
+.blogger-link:hover {
+    color: #e26a00; /* Darker orange on hover */
+}
